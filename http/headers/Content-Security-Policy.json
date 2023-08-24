@@ -699,7 +699,6 @@
         "prefetch-src": {
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/prefetch-src",
-            "spec_url": "https://w3c.github.io/webappsec-csp/#directive-prefetch-src",
             "support": {
               "chrome": {
                 "version_added": false,
@@ -727,9 +726,9 @@
               "webview_android": "mirror"
             },
             "status": {
-              "experimental": true,
-              "standard_track": true,
-              "deprecated": false
+              "experimental": false,
+              "standard_track": false,
+              "deprecated": true
             }
           }
         },
@@ -985,7 +984,8 @@
           },
           "external_scripts": {
             "__compat": {
-              "description": "With external scripts",
+              "description": "External scripts with hash",
+              "spec_url": "https://w3c.github.io/webappsec-csp/#external-hash",
               "support": {
                 "chrome": {
                   "version_added": "59"
@@ -995,7 +995,7 @@
                   "version_added": "≤79"
                 },
                 "firefox": {
-                  "version_added": null
+                  "version_added": "116"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1005,7 +1005,7 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": null
+                  "version_added": "15.6"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
