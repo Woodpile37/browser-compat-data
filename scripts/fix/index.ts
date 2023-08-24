@@ -21,7 +21,6 @@ const dirname = fileURLToPath(new URL('.', import.meta.url));
 
 /**
  * Recursively load one or more files and/or directories passed as arguments and perform automatic fixes.
- *
  * @param {string[]} files The files to load and perform fix upon
  */
 const load = async (...files: string[]): Promise<void> => {
@@ -72,6 +71,7 @@ if (esMain(import.meta)) {
       'javascript',
       'mathml',
       'test',
+      'webassembly',
       'webdriver',
       'webextensions',
     );

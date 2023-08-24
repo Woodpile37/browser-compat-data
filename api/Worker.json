@@ -6,7 +6,7 @@
         "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dedicated-workers-and-the-worker-interface",
         "support": {
           "chrome": {
-            "version_added": "4"
+            "version_added": "2"
           },
           "chrome_android": "mirror",
           "deno": {
@@ -160,8 +160,7 @@
               },
               "edge": "mirror",
               "firefox": {
-                "version_added": false,
-                "notes": "See <a href='https://bugzil.la/1247687'>bug 1247687</a>"
+                "version_added": "114"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -176,7 +175,11 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "15"
+                "version_added": "15",
+                "notes": [
+                  "Nested workers support was introduced in Safari 15.5.",
+                  "Script loading in nested workers was introduced in Safari 16.4."
+                ]
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -216,8 +219,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": false,
-                "notes": "See <a href='https://webkit.org/b/192749'>WebKit bug 192749</a>."
+                "version_added": "16"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -287,7 +289,7 @@
               },
               "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "114"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -481,7 +483,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-worker-postmessage-dev",
           "support": {
             "chrome": {
-              "version_added": "4"
+              "version_added": "2"
             },
             "chrome_android": "mirror",
             "deno": [
@@ -580,7 +582,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-worker-terminate-dev",
           "support": {
             "chrome": {
-              "version_added": "4"
+              "version_added": "2"
             },
             "chrome_android": "mirror",
             "deno": {
