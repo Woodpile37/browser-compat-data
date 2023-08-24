@@ -6,7 +6,7 @@
         "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#textmetrics",
         "support": {
           "chrome": {
-            "version_added": "1"
+            "version_added": "2"
           },
           "chrome_android": "mirror",
           "edge": {
@@ -325,14 +325,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "74",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.textMetrics.fontBoundingBox.enabled",
-                  "value_to_set": "true"
-                }
-              ]
+              "version_added": "116"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -366,14 +359,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "74",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.textMetrics.fontBoundingBox.enabled",
-                  "value_to_set": "true"
-                }
-              ]
+              "version_added": "116"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -484,7 +470,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-width-dev",
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
             "chrome_android": "mirror",
             "edge": {
